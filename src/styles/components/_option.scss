@@ -1,0 +1,15 @@
+.option {
+	border-bottom: 1px solid lighten($widget-bg, 10%); 
+	display: flex;
+	justify-content: space-between;
+	padding: $m-size $m-size;
+}
+
+.option__text {
+	color: #DDDDDD;
+	font-size: 2rem;
+	font-weight: 500;
+	margin: 0;
+	align-self: center;
+	word-break: break-all;
+}

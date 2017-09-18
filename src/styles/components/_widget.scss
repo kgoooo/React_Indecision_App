@@ -1,0 +1,31 @@
+//widget
+.widget {
+	background: $widget-bg;
+	margin: $s-size;
+}
+
+.widget__message{
+	border-bottom: 1px solid lighten($widget-bg, 10%);
+	color: $text-color;
+	margin: 0;
+	padding: $l-size;
+	text-align: center;
+}
+
+//widget header
+.widget-header {
+	background: $widget-header-bg;
+	color: $text-color;
+	display: flex;
+	justify-content: space-between;
+	padding: $m-size;
+}
+
+.widget-header__h3 {
+	margin: 0;
+	align-self: center;
+}
+
+@media (min-width: $desktop-breakpoint) {
+	margin: $xl-size;
+}
